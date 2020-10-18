@@ -80,7 +80,6 @@ MonoBehaviour:
   Speed: 2
   JumpHeight: 2
   GroundDistance: 0.1
-  DashDistance: 5
   Ground:
     serializedVersion: 2
     m_Bits: 256
@@ -177,6 +176,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 95787105524477528, guid: 2f3e27eecb190e44a9af50723c394274,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c95a1aec382c47e49960b48c31cb5bc4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f3e27eecb190e44a9af50723c394274, type: 3}
 --- !u!4 &9012865862384698684 stripped
