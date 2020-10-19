@@ -45,4 +45,10 @@ public class PlayerMovementRigidbody : MonoBehaviour
     {
         _body.MovePosition(_body.position + _inputs * Speed * Time.fixedDeltaTime);
     }
+
+    public float GetForwardSpeed()
+    {
+        var localVelocity = transform.InverseTransformDirection(_body.velocity);
+        return localVelocity.z;
+    }
 }

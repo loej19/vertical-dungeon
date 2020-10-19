@@ -40,6 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7032464594616039913}
   - component: {fileID: 7759889131000864462}
+  - component: {fileID: 1561748662123242325}
   - component: {fileID: 2216062058423886404}
   - component: {fileID: 3503549061866649982}
   m_Layer: 0
@@ -83,6 +84,18 @@ MonoBehaviour:
   Ground:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &1561748662123242325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8860118688893155004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c73411bb71ae554a89d24dc6db0ad90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &2216062058423886404
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -181,6 +194,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: c95a1aec382c47e49960b48c31cb5bc4, type: 2}
+    - target: {fileID: 95787105524477528, guid: 2f3e27eecb190e44a9af50723c394274,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f3e27eecb190e44a9af50723c394274, type: 3}
 --- !u!4 &9012865862384698684 stripped
